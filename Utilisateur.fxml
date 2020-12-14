@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="projetjava.UtilisateurController">
+    <stylesheets>
+        <URL value="@utilisateur.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="6.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" styleClass="mainFxmlClass">
+          <stylesheets>
+              <URL value="@utilisateur.css" />
+          </stylesheets>
+         <children>
+            <ImageView fitHeight="230.0" fitWidth="547.0" layoutX="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imageFont/images%20(2).jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="-9.0" prefHeight="400.0" prefWidth="190.0" style="-fx-background-color: #3c0b63;">
+               <children>
+                  <Label prefHeight="64.0" prefWidth="195.0" style="-fx-background-color: #2a0b42;" text="  THE GOOD DEAL" textFill="WHITE">
+                     <font>
+                        <Font name="Algerian" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button layoutY="64.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: #3c0b63;" text="Gestion des produits" textFill="WHITE" />
+                  <Button layoutY="119.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: #3c0b63;" text="Gestion des commandes" textFill="WHITE" />
+                  <Button layoutY="173.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: #3c0b63;" text="Gestion des factures" textFill="WHITE" />
+                  <Button layoutY="228.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: #3c0b63;" text="Passer une commande" textFill="WHITE" />
+                  <AnchorPane layoutY="290.0" prefHeight="103.0" prefWidth="195.0">
+                     <children>
+                        <Label id="lbPersonnel" layoutX="52.0" layoutY="60.0" prefHeight="17.0" prefWidth="91.0" text="Label" textFill="WHITE" />
+                        <ImageView fitHeight="32.0" fitWidth="175.0" layoutX="69.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@imageFont/image12.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="64.0" fitWidth="143.0" layoutX="204.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/zara.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="97.0" layoutX="204.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/arvea.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="83.0" layoutX="342.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/farmasi.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="67.0" layoutX="268.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/forever.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="91.0" layoutX="198.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/sumsung.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="91.0" layoutX="262.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/lg.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="57.0" layoutX="364.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/apple.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="198.0" fitWidth="150.0" layoutX="437.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo/tunisie.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="64.0" fitWidth="112.0" layoutX="278.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo/ha.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="97.0" layoutX="354.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo/shana.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
